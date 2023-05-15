@@ -15,7 +15,7 @@ L:/X-COM/CCP_repo_ART_DU/CCP_Art_DU
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49335
+51117
 Successfully changed project path to: L:/X-COM/CCP_repo_ART_DU/CCP_Art_DU
 L:/X-COM/CCP_repo_ART_DU/CCP_Art_DU
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ L:/X-COM/CCP_repo_ART_DU/CCP_Art_DU
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17120] Host "[IP] 192.168.50.162 [Port] 0 [Flags] 2 [Guid] 2487414400 [EditorId] 2487414400 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VEUAIO9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13512] Host "[IP] 192.168.50.162 [Port] 0 [Flags] 2 [Guid] 1503663664 [EditorId] 1503663664 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VEUAIO9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17120] Host "[IP] 192.168.50.162 [Port] 0 [Flags] 2 [Guid] 2487414400 [EditorId] 2487414400 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VEUAIO9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13512] Host "[IP] 192.168.50.162 [Port] 0 [Flags] 2 [Guid] 1503663664 [EditorId] 1503663664 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VEUAIO9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 91.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.20f1 (577897200b8b)
 [Subsystems] Discovering subsystems at path C:/Program Files/DU_Games/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -67,85 +67,85 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/DU_Games/2021.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/DU_Games/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/DU_Games/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/DU_Games/2021.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/DU_Games/2021.3.20f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/DU_Games/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010939 seconds.
+Registered in 0.014273 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 336 ms
-Refreshing native plugins compatible for Editor in 78.46 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 289 ms
+Refreshing native plugins compatible for Editor in 72.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.128 seconds
+- Completed reload, in  0.980 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1129ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (981ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (895ms)
-			LoadAssemblies (95ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (136ms)
+			SetupTypeCache (119ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (669ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (566ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (433ms)
+				InitializePlatformSupportModulesInManaged (365ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
+				RefreshPlugins (72ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (106ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005131 seconds.
+Registered in 0.003611 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image L:\X-COM\CCP_repo_ART_DU\CCP_Art_DU\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image L:\X-COM\CCP_repo_ART_DU\CCP_Art_DU\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.341 seconds
+- Completed reload, in  1.186 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1342ms)
-		BeginReloadAssembly (128ms)
+	ReloadAssembly (1187ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1086ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (960ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
+			SetupTypeCache (286ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (579ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (507ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (417ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (373ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -153,13 +153,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (113.3 KB). Loaded Objects now: 3509.
-Memory consumption went from 107.6 MB to 107.5 MB.
-Total: 5.668700 ms (FindLiveObjects: 0.357700 ms CreateObjectMapping: 0.258800 ms MarkObjects: 4.909700 ms  DeleteObjects: 0.141200 ms)
+Memory consumption went from 107.7 MB to 107.5 MB.
+Total: 4.157500 ms (FindLiveObjects: 0.295600 ms CreateObjectMapping: 0.319900 ms MarkObjects: 3.414500 ms  DeleteObjects: 0.126200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,21 +171,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1128580.606100 seconds.
-  path: Assets/Art/Buildings/Vagon/Vagon_Frame_M.png
-  artifactKey: Guid(cc0c7c04ba1279c43a4a15e7735c6bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Buildings/Vagon/Vagon_Frame_M.png using Guid(cc0c7c04ba1279c43a4a15e7735c6bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a36c49c99d6f0cfcc04404f4217598f') in 0.091463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Art/Buildings/Vagon/Vagon_Frame_m_N.png
-  artifactKey: Guid(20daa81b779e9ff4c84a838a549a5540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Buildings/Vagon/Vagon_Frame_m_N.png using Guid(20daa81b779e9ff4c84a838a549a5540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e352b37eb1d4ac86b67e458d8b9ebf89') in 0.017179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 729.835982 seconds.
-  path: Assets/Art/Buildings/Vagon/Vagon_Frame_mat.mat
-  artifactKey: Guid(a1ee950de1129694d9f6ee63650b3d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Buildings/Vagon/Vagon_Frame_mat.mat using Guid(a1ee950de1129694d9f6ee63650b3d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc1969f0f047c1ee0ae995139745620') in 0.299783 seconds 
